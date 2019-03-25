@@ -30,7 +30,7 @@
 NVIDIA® Jetson Nano™ 开发者套件是一台适用于创客，学习者和开发人员的小型人工智能计算机。
 按照这个简要的指导之后，你就可以开始构建实际的人工智能应用程序，很酷的人工智能机器人等等。
 
-![整体介绍](image/jetson-nano-dev-kit-top-r6-HR.png)
+![Jetson Nano 外设](image/jetson-nano-dev-kit-top-r6-HR.png)
 
 - 1.用于主存储的 microSD 卡插槽
 - 2.40 个扩展引脚
@@ -81,7 +81,7 @@ Jetson Nano 开发者套件使用 microSD 卡作为一个引导设备和主存�
 作为良好电源的一个例子，NVIDIA 已经过验证[Adafruit’s 5V 2.5A SwitchingPower Supply with 20AWG MicroUSB Cable (GEO151UB-6025)](https://www.adafruit.com/product/1995)。
 它专门用于克服 USB 电源的常见问题；有关详细信息，请参阅链接的产品页。
 
-> 注意
+> **注意：**
 >
 > USB 电源的规定功率输出能力可以在其标签上看到。
 >
@@ -89,7 +89,7 @@ Jetson Nano 开发者套件使用 microSD 卡作为一个引导设备和主存�
 >
 > 请看看 **Jetson Nano 开发者套件用户指南**了解更多信息。
 >
-> ![电源图片](image/jetson-nano-dev-kit-power-block-r4-HR.png)
+> ![5V 电源适配器](image/jetson-nano-dev-kit-power-block-r4-HR.png)
 >
 > 单击或点击图像查看特写。
 
@@ -111,7 +111,7 @@ Jetson Nano 开发者套件有一个千兆以太网接口，但是也支持通�
 
   > 使用 SD Association 的 SD Memory Card Formatter 格式化 microSD 卡。
   >
-  > ![SD卡格式化](image/Jetson_Nano-Getting_Started-Windows-SD_Card_Formatter.png)
+  > ![SD卡格式化软件](image/Jetson_Nano-Getting_Started-Windows-SD_Card_Formatter.png)
   >
   > 1.下载, 安装, 并启动 [Windows 版 SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter_4/eula_windows/).
   >
@@ -127,13 +127,13 @@ Jetson Nano 开发者套件有一个千兆以太网接口，但是也支持通�
   >
   > 1.下载，安装和启动[Etcher](https://www.balena.io/etcher)。
   >
-  > ![etcher](image/Jetson_Nano-Getting_Started-Windows-Etcher.png)
+  > ![Etcher 镜像烧录软件](image/Jetson_Nano-Getting_Started-Windows-Etcher.png)
   >
   > 2.单击“Select image”，然后选择之前下载的压缩图像文件。
   >
   > 3.如果尚未插入 microSD 卡，请将其插入。如果 Windows 提示您使用如下对话框，请单击“ 取消”（根据[此说明](https://github.com/balena-io/etcher/issues/2024)）：
   >
-  > ![提示框](image/Jetson_Nano-Getting_Started-Windows-Etcher_Cancel.png)
+  > ![Etcher 提示框](image/Jetson_Nano-Getting_Started-Windows-Etcher_Cancel.png)
   >
   > 4.单击“Select drive”并选择正确的设备。
   >
@@ -141,7 +141,7 @@ Jetson Nano 开发者套件有一个千兆以太网接口，但是也支持通�
   >
   > 6.Etcher 完成后，Windows 可能会让您知道它不知道如何读取 SD 卡。只需单击取消并移除 microSD 卡。
   >
-  > ![提示框](image/Jetson_Nano-Getting_Started-Windows-Etcher_Cancel.png)
+  > ![Etcher 提示框](image/Jetson_Nano-Getting_Started-Windows-Etcher_Cancel.png)
   >
   > 准备好 microSD 卡后，继续设置开发人员工具包。
 
@@ -153,7 +153,7 @@ Jetson Nano 开发者套件有一个千兆以太网接口，但是也支持通�
 
 ## 安装和首次启动
 
-![安装动图](image/Jetbot_animation_500x282_2.gif)
+![Jetson Nano 安装](image/Jetbot_animation_500x282_2.gif)
 
 ### 安装步骤
 
@@ -163,7 +163,7 @@ Jetson Nano 开发者套件有一个千兆以太网接口，但是也支持通�
 >
 > 3.将 microSD 卡插入(已经写入系统镜像)位于 Jetson Nano 模块底部的槽中。
 >
-> ![插入SD卡](image/Jetson_Nano-Getting_Started-Setup-Insert_microSD.png)
+> ![插入 microSD 卡](image/Jetson_Nano-Getting_Started-Setup-Insert_microSD.png)
 >
 > 4.打开电脑显示器电源并连接它
 >
@@ -183,4 +183,4 @@ Jetson Nano 开发者套件有一个千兆以太网接口，但是也支持通�
 ### 登录之后
 
 你会看到这个屏幕。恭喜！
-![主界面](image/Jetson_Nano-Getting_Started-Setup_Welcome_Screen.png)
+![Jetson Nano 系统主界面](image/Jetson_Nano-Getting_Started-Setup_Welcome_Screen.png)
