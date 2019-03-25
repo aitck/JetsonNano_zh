@@ -216,7 +216,7 @@ Jetson Nano 开发者套件有一个千兆以太网接口，但是也支持通�
 
 你会看到这个屏幕。恭喜！
 
-<br/> ![Jetson Nano 系统主界面](image/Jetson_Nano-Getting_Started-Setup_Welcome_Screen.png)
+![Jetson Nano 系统主界面](image/Jetson_Nano-Getting_Started-Setup_Welcome_Screen.png)
 
 ## 下一步
 
