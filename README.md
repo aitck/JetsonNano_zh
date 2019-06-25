@@ -1,4 +1,4 @@
-# Jetson Nano 开发者套件入门教程
+# Jetson Nano 入门教程
 
 - [介绍](#介绍)
 
@@ -40,7 +40,7 @@
 
 - [故障排除](#故障排除)
 
-## 介绍
+## **介绍**
 
 ### 简介
 
@@ -90,7 +90,7 @@ NVIDIA® Jetson Nano™ 开发者套件是一台适用于创客，学习者和�
 
 开始之前，还需要能联网并且能够烧录 microSD 卡的电脑。
 
-## 安装准备
+## **安装准备**
 
 ### 准备开始所需物品
 
@@ -128,7 +128,7 @@ Jetson Nano 开发者套件使用 microSD 卡作为一个引导设备和主存�
 
 Jetson Nano 开发者套件有一个千兆以太网接口，但是也支持通用 USB 无线网络适配器，例如，Edimax EW-7811Un。
 
-## 将镜像写入 microSD
+## **将镜像写入 microSD**
 
 要准备 microSD 卡，您需要一台具有 Internet 连接的计算机，并且能够通过内置的 SD 卡插槽或适配器读写 SD 卡。
 
@@ -181,7 +181,7 @@ Jetson Nano 开发者套件有一个千兆以太网接口，但是也支持通�
 
 准备好 microSD 卡后，继续设置开发人者套件。
 
-## 安装和首次启动
+## **安装和首次启动**
 
 ![Jetson Nano 安装](image/Jetbot_animation_500x282_2.gif)
 
@@ -218,7 +218,7 @@ Jetson Nano 开发者套件有一个千兆以太网接口，但是也支持通�
 
 ![Jetson Nano 系统主界面](image/Jetson_Nano-Getting_Started-Setup_Welcome_Screen.png)
 
-## 下一步
+## **下一步**
 
 ### 找到你的方式
 
@@ -264,7 +264,7 @@ Jetson Nano 开发者套件是一款用于学习和制作的 AI 计算机。
 
   - 支持许多流行的 AI 框架，如 TensorFlow，PyTorch，Caffe 和 MXNet，Jetson Nano 能够并行运行多个神经网络来处理数据和驱动器。
 
-## 故障排除
+## **故障排除**
 
 ### 电源
 
